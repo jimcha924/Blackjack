@@ -1,0 +1,134 @@
+.header{
+    margin: 30px;
+    padding-left: 30px;
+}
+
+body {
+    font-family: 'Antonio', sans-serif;
+    box-sizing: border-box;
+    height: 600px;
+    width: 800px;
+    background-image: url("https://bassplayersontheinternet.com/wp-content/uploads/2021/01/blackjack-1600x891_large.jpg");
+}
+
+  body * {
+    box-sizing: inherit;
+}
+
+.message-box {
+    width: 1000px;
+    max-width: calc(100% - 50px);
+    margin: 0 auto 10px;
+    height: 10px;
+    font-size: 24px;
+    color: rgb(123, 205, 103);
+}
+.message-box.error {
+    color: rgb(164, 9, 9)
+}
+.table {
+    width: 100%;
+    max-width: calc(100% - 20px);
+    border: 8px solid rgb(3, 7, 2);
+    border-radius: 20px;
+    background: rgb(40, 142, 15);
+    margin: 0 auto;
+    color: white;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.player {
+    margin: 20px;
+}
+.player-name {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.points {
+    font-style: italic;
+}
+.hand {
+    height: 120px;
+    background: rgba(10, 43, 2, 0.5);
+    border-radius: 5px;
+}
+.hand img {
+    height: 100%;
+    width: auto;
+    padding: 10px 0 10px 10px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 10px;
+    font-size: 18px;
+    border: 0;
+    box-shadow: 5px black;
+    padding: 10px 16px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 98, 163);
+}
+
+button:hover {
+    cursor: pointer;
+    background: rgb(35, 133, 199);
+    box-shadow: 5px 5x 10px 5px rgba(2, 33, 53, 0.55);
+}
+
+button[disabled] {
+    color: rgb(160, 160, 160);
+    background: rgb(71, 71, 71);
+}
+
+button[disabled]:hover {
+    cursor: not-allowed;
+    background: rgb(71, 71, 71);
+    box-shadow: none;
+}
+
+button[type="reset"] {
+    color: rgb(255, 184, 184);
+    background: rgb(133, 8, 8);
+}
+
+button[type="reset"]:hover {
+    background: rgb(150, 7, 7);
+    box-shadow: 0px 0px 10px 5px rgba(150, 7, 7, 0.63);
+}
+
+.deck .card
+{
+	border: solid 1px #aaa;
+	border-radius: 9px;
+	width: 95px;
+	height: 150px;
+	float:left;
+	background-color: white;
+	padding: 3px 3px 3px 3px;
+	margin: 5px;
+}
+
+.card2
+{
+            width: 50px;
+            padding: 10px;
+            border: solid 1px #808080;
+            background-color: white;
+            display: inline-block;
+            border-radius: 10px;
+            font-size: 22px;
+            text-align: center;
+            margin: 3px;
+            border:solid 3px;
+}
+
+.card .value{
+	font-size:15pt;
+	font-family: sans-serif;
+}
